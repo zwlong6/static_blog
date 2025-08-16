@@ -3,7 +3,7 @@ module.exports = async function(tp) {
     const activeFile = app.workspace.getActiveFile();
     if (!activeFile) {
         new Notice("没有活动文件");
-        return "错误：没有活动文件";
+        return ""; // 返回空字符串，不插入内容
     }
     
     // 读取文件内容
@@ -31,5 +31,5 @@ module.exports = async function(tp) {
     await app.vault.modify(activeFile, updatedContent);
     
     new Notice(`已更新updated字段为: ${now}`);
-    return `已更新updated字段为: ${now}`;
+    return ""; // 返回空字符串，不插入内容
 };
