@@ -3,7 +3,7 @@ import { Icon } from "astro-icon/components";
 import { profileConfig } from "../config";
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
-import { formatDateToYYYYMMDD } from "../utils/date-utils";
+import { formatDateTimeToYYYYMMDDHHMMSS } from "../utils/date-utils";
 import { getCategoryUrl, getTagUrl } from "../utils/url-utils";
 
 interface Props {
@@ -37,7 +37,7 @@ const umamiRegion = profileConfig.umami?.region || "eu";
         >
             <Icon name="material-symbols:calendar-today-outline-rounded" class="text-xl"></Icon>
         </div>
-        <span class="text-50 text-sm font-medium">{formatDateToYYYYMMDD(published)}</span>
+        <span class="text-50 text-sm font-medium">{formatDateTimeToYYYYMMDDHHMMSS(published)}</span>
     </div>
 
     <!-- update date -->
@@ -47,7 +47,7 @@ const umamiRegion = profileConfig.umami?.region || "eu";
             >
                 <Icon name="material-symbols:edit-calendar-outline-rounded" class="text-xl"></Icon>
             </div>
-            <span class="text-50 text-sm font-medium">{formatDateToYYYYMMDD(updated)}</span>
+            <span class="text-50 text-sm font-medium">{formatDateTimeToYYYYMMDDHHMMSS(updated)}</span>
         </div>
     )}
 
