@@ -27,7 +27,7 @@ import "../styles/mobile-navbar.css";
 
 interface Props {
 	title?: string;
-	banner?: string;
+	banner?: string | { url: string; alt?: string };
 	description?: string;
 	lang?: string;
 	setOGTypeArticle?: boolean;
@@ -73,12 +73,18 @@ const getDefaultBanner = (): string => {
 	return "";
 };
 
-if (!banner || typeof banner !== "string" || banner.trim() === "") {
-	banner = getDefaultBanner();
+// 处理banner参数，支持字符串和对象格式
+let bannerUrl: string;
+if (!banner) {
+	bannerUrl = getDefaultBanner();
+} else if (typeof banner === "string") {
+	bannerUrl = banner.trim() === "" ? getDefaultBanner() : banner;
+} else {
+	bannerUrl = banner.url || getDefaultBanner();
 }
 
 // TODO don't use post cover as banner for now
-banner = getDefaultBanner();
+bannerUrl = getDefaultBanner();
 
 const enableBanner = siteConfig.banner.enable;
 

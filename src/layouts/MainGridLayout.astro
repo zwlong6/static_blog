@@ -20,7 +20,7 @@ import Layout from "./Layout.astro";
 
 interface Props {
 	title?: string;
-	banner?: string;
+	banner?: string | { url: string; alt?: string };
 	description?: string;
 	lang?: string;
 	setOGTypeArticle?: boolean;
