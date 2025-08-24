@@ -1,25 +1,22 @@
 ---
-# 必需字段
-title: 文章标题（必需）
+title: "{{NAME}}"
 description: 文章描述（必需）
-# 发布相关
-published: 2025-01-01
+published: "{{DATE:YYYY-MM-DD HH:mm:ss}}"
 pubDate: 2025-01-02
 date: 2025-01-03
 draft: false
 series: markdown
-# 内容分类
-tags: [Markdown, Blogging]
+tags:
+  - Markdown
+  - Blogging
 category: Examples
-pinned:  true
-# 作者信息
+pinned: true
 author: zwl
-licenseName: "CC BY 4.0"
+licenseName: CC BY 4.0
 sourceLink: https://zzzero.site
-# 图片设置
 image: http://www.98qy.com/sjbz/api.php
 ---
-
+# Templete
 
 ```shell
 # 必需字段
@@ -42,5 +39,3 @@ sourceLink: 文章源链接，通常指向GitHub仓库或原始来源
 # 图片设置
 image:  http://www.98qy.com/sjbz/api.php
 ```
-
-# Templete
