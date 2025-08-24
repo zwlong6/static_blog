@@ -39,27 +39,16 @@ export const siteConfig: SiteConfig = {
 		ignoreTags: ["script", "style", "code", "pre"], // 翻译时忽略的 HTML 标签
 	},
 	banner: {
-		enable: false, // 暂时禁用横幅以提高加载速度
+		enable: true, // 暂时禁用横幅以提高加载速度
 
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"assets/desktop-banner/1.webp",
-				"assets/desktop-banner/2.webp",
-				"assets/desktop-banner/3.webp",
-				"assets/desktop-banner/4.webp",
-				"assets/desktop-banner/5.webp",
-				"assets/desktop-banner/6.webp",
-				"assets/desktop-banner/7.webp",
+				"https://s1.imagehub.cc/images/2025/08/24/2604e15625c8a5ac42ac3b7535411220.jpeg",
 			], // 桌面横幅图片
 			mobile: [
-				"assets/mobile-banner/1.webp",
-				"assets/mobile-banner/2.webp",
-				"assets/mobile-banner/3.webp",
-				"assets/mobile-banner/4.webp",
-				"assets/mobile-banner/5.webp",
-				"assets/mobile-banner/6.webp",
-				"assets/mobile-banner/7.webp",
+				// "assets/mobile-banner/1.webp",
+				"https://s1.imagehub.cc/images/2025/08/24/3c8dd5aa69b67ffd8e89db3a93f670c6.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -73,13 +62,17 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Mizuki", // 主页横幅主标题
+			title: "ZhouZhou's Blog", // 主页横幅主标题
 
 			subtitle: [
-				"One demo website",
-				"Carousel Text1",
-				"Carousel Text2",
-				"Carousel Text3",
+				"欢迎来到我的博客",
+				"这是一个关于我生活的博客",
+				"在这里你可以看到我的生活点滴",
+				"欢迎留言评论",
+				"欢迎分享",
+				"欢迎关注",
+				"欢迎点赞",
+				"欢迎收藏",
 			], // 主页横幅副标题，支持多文本
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -98,7 +91,7 @@ export const siteConfig: SiteConfig = {
 		},
 
 		navbar: {
-			transparentMode: "full", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明
+			transparentMode: "semi", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明
 		},
 	},
 	toc: {
@@ -126,19 +119,19 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/zwlong6",
 					external: true,
 				},
-				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
-					external: true,
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-				},
+				// {
+				// 	name: "Bilibili",
+				// 	url: "https://space.bilibili.com/701864046",
+				// 	external: true,
+				// },
+				// {
+				// 	name: "Gitee",
+				// 	url: "https://gitee.com/matsuzakayuki/Mizuki",
+				// 	external: true,
+				// },
 			],
 		},
 		{
@@ -151,46 +144,37 @@ export const navBarConfig: NavBarConfig = {
 			url: "/content/",
 			children: [LinkPreset.About, LinkPreset.Friends],
 		},
-		{
-			name: "其他",
-			url: "#",
-			children: [
-				{
-					name: "项目展示",
-					url: "/projects/",
-				},
-				{
-					name: "技能展示",
-					url: "/skills/",
-				},
-				{
-					name: "时间线",
-					url: "/timeline/",
-				},
-			],
-		},
+		// {
+		// 	name: "其他",
+		// 	url: "#",
+		// 	children: [
+		// 		{
+		// 			name: "项目展示",
+		// 			url: "/projects/",
+		// 		},
+		// 		{
+		// 			name: "技能展示",
+		// 			url: "/skills/",
+		// 		},
+		// 		{
+		// 			name: "时间线",
+		// 			url: "/timeline/",
+		// 		},
+		// 	],
+		// },
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Mizuki",
-	bio: "这是一个描述",
+	// avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "https://s1.imagehub.cc/images/2025/08/22/5aeabd5d7868bc9bc70af208609c7b50.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "ZhouZhou",
+	bio: "a blog about my life",
 	links: [
 		{
-			name: "Bilibli",
-			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
-		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
-		{
-			name: "GitHub",
+			name: "Github",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/zwlong6",
 		},
 	],
 	// Umami统计部份，记得在layout插入Umami的head标签
@@ -222,7 +206,7 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
-	content: "欢迎来到我的博客！这是一个示例公告。", // 公告内容
+	content: "欢迎来到我的博客！", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -358,7 +342,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 };
 
 export const sakuraConfig: SakuraConfig = {
-	enable: true, // 默认关闭樱花特效
+	enable: false, // 默认关闭樱花特效
 	sakuraNum: 21, // 樱花数量
 	limitTimes: -1, // 樱花越界限制次数，-1为无限循环
 	size: {
