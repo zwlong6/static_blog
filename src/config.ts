@@ -44,11 +44,12 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"https://s1.imagehub.cc/images/2025/08/24/2604e15625c8a5ac42ac3b7535411220.jpeg",
+				// "https://s1.imagehub.cc/images/2025/08/24/2604e15625c8a5ac42ac3b7535411220.jpeg",
+				"assets/desktop-banner/1.png",
 			], // 桌面横幅图片
 			mobile: [
-				// "assets/mobile-banner/1.webp",
-				"https://s1.imagehub.cc/images/2025/08/24/3c8dd5aa69b67ffd8e89db3a93f670c6.webp",
+				"assets/mobile-banner/1.png",
+				// "https://s1.imagehub.cc/images/2025/08/24/3c8dd5aa69b67ffd8e89db3a93f670c6.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
