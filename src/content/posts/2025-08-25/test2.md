@@ -1,8 +1,8 @@
 ---
-title: 文档模版2
+title: test2
 description: 文章描述（必需）
-published: 2025-08-24 23:31:46
-updated: 2025-08-24 23:31:46
+published: 2025-08-25 00:24:09
+updated: 2025-08-25 00:25:37
 draft: false
 series: markdown
 tags:
@@ -12,11 +12,13 @@ category: Examples
 pinned: true
 author: zwl
 licenseName: CC BY 4.0
-sourceLink: https://blog.zzzero.site/posts/文档模版2/
-image: http://www.98qy.com/sjbz/api.php?r=24233146
+sourceLink: https://blog.zzzero.site/posts/test2/
+image: http://www.98qy.com/sjbz/api.php?r=25002409
 ---
 
 
 ## 文章内容
 
 在这里写入您的文章内容...
+hello world!
+hello

@@ -2,5 +2,6 @@
   "promptDelete": false,
   "useMarkdownLinks": true,
   "attachmentFolderPath": "./assets",
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "showLineNumber": true
 }
