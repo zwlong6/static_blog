@@ -40,7 +40,6 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true, // 暂时禁用横幅以提高加载速度
-
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
@@ -52,7 +51,7 @@ export const siteConfig: SiteConfig = {
 				// "https://s1.imagehub.cc/images/2025/08/24/3c8dd5aa69b67ffd8e89db3a93f670c6.webp",
 				// "assets/mobile-banner/3.webp",
 				// "http://www.98qy.com/sjbz/api.php?=1",
-				"https://picsum.photos/800/400",
+				"https://picsum.photos/400/800",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -95,7 +94,7 @@ export const siteConfig: SiteConfig = {
 		},
 
 		navbar: {
-			transparentMode: "semi", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明
+			transparentMode: "none", // 导航栏透明模式："semi" 半透明加圆角，"full" 完全透明
 		},
 	},
 	toc: {
