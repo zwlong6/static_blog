@@ -1,16 +1,15 @@
 ---
-title: "test"
+title: "<% tp.file.title || tp.date.now("YYYY-MM-DD HH:mm:ss") %>"
 description: 文章描述（必需）
-published: "2025-08-24"
-pubDate: 2025-01-02
-date: 2025-01-03
+published: "<% tp.date.now("YYYY-MM-DD") %>"
+pubDate: "<% tp.date.now("YYYY-MM-DD") %>"
+date: "<% tp.date.now("YYYY-MM-DD") %>"
 draft: true
 series: markdown
 tags:
   - Markdown
-  - Blogging
 category: Examples
-pinned: true
+pinned: false
 author: zwl
 licenseName: CC BY 4.0
 sourceLink: https://zzzero.site

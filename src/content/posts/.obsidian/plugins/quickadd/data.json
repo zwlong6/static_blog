@@ -1,18 +1,20 @@
 {
   "choices": [
     {
-      "id": "473b1fa2-9ebd-4054-a857-8b2cbd86e745",
-      "name": "Article Templete",
+      "id": "d1ad92c2-4ca8-420b-9538-4e1cea02858e",
+      "name": "article_templete",
       "type": "Template",
       "command": false,
-      "templatePath": "video.md",
+      "templatePath": "templete/article_templete.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "{{NAME}}/"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false

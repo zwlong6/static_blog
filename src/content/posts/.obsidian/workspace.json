@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4b1c0e766cd01c82",
+        "id": "e553b95ac4ca5204",
         "type": "tabs",
         "children": [
           {
-            "id": "1232e78e635a919d",
+            "id": "aa37c37df70ab938",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "video.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "video"
-            }
-          },
-          {
-            "id": "a8303bc1608c9736",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
+                "file": "test/test.md",
                 "mode": "source",
                 "source": false
               },
@@ -35,8 +21,7 @@
               "title": "test"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,22 +206,28 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "792689d3c2915128",
   "lastOpenFiles": [
-    "test.md",
-    "video.md",
+    "test/test.md",
+    "templete/article_templete.md",
+    "test",
+    "templete",
     "test1.md",
+    "1.md",
+    "jjj.md",
+    "test.md",
+    "中山.md",
+    "markdown.md",
     "video_bak.md",
     "未命名.md",
-    "1.md",
     "未命名.base",
     "2025-01-01.md",
     "video.md.sb-fbc7448f-83Tco5",
     "markdown-tutorial.md",
-    "markdown.md",
     "markdown-mermaid.md",
     "欢迎.md"
   ]

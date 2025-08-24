@@ -1,4 +1,6 @@
 [
   "terminal",
-  "quickadd"
+  "quickadd",
+  "templater-obsidian",
+  "dataview"
 ]
