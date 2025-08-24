@@ -1,5 +1,6 @@
 [
   "quickadd",
   "terminal",
-  "update-time-on-edit"
+  "frontmatter-modified-date",
+  "templater-obsidian"
 ]

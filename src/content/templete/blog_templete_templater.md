@@ -1,10 +1,8 @@
 ---
-title: {{NAME}}
+title: <% tp.file.title %>
 description: 文章描述（必需）
-published: {{DATE:YYYY-MM-DD HH:mm:ss}}
-pubDate: {{DATE:YYYY-MM-DD HH:mm:ss}}
-date: {{DATE:YYYY-MM-DD HH:mm:ss}}
-updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
+published: <% tp.file.creation_date("yyyy-MM-DD HH:mm:ss") %>
+updated: <% tp.file.last_modified_date("yyyy-MM-DD HH:mm:ss") %>
 draft: true
 series: markdown
 tags:
