@@ -1,15 +1,16 @@
 ---
-title: "article_templete"
+title: test01
 description: 文章描述（必需）
-published: "2025-08-24"
-pubDate: "2025-08-24"
-date: "2025-08-24"
-draft: true
+published: 2025-08-24
+pubDate: 2025-08-24
+date: 2025-08-24
+draft: false
 series: markdown
 tags:
   - Markdown
+  - Blogging
 category: Examples
-pinned: false
+pinned: true
 author: zwl
 licenseName: CC BY 4.0
 sourceLink: https://zzzero.site
