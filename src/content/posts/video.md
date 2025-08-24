@@ -6,7 +6,7 @@ tags: [Example, Video]
 category: Examples
 draft: false
 image:
-  url: 'https://example.com/vue3-cover.jpg'
+  url: 'http://www.98qy.com/sjbz/api.php'
   alt: 'Vue.js 3 组合式API指南封面'
 ---
 
