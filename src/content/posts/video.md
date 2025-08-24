@@ -5,9 +5,10 @@ description: This post demonstrates how to include embedded video in a blog post
 tags: [Example, Video]
 category: Examples
 draft: false
-image:
-  url: 'https://example.com/vue3-cover.jpg'
-  alt: 'Vue.js 3 组合式API指南封面'
+# image:
+#   url: 'https://example.com/vue3-cover.jpg'
+#   alt: 'Vue.js 3 组合式API指南封面'
+image:'https://example.com/vue3-cover.jpg'
 ---
 
 Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.
