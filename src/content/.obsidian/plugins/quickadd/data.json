@@ -13,22 +13,22 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "posts"
+          "posts/{{date}}"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
+        "chooseFromSubfolders": true
       },
       "appendLink": false,
       "openFile": true,
       "fileOpening": {
         "location": "tab",
         "direction": "vertical",
-        "mode": "default",
+        "mode": "live",
         "focus": true
       },
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "setFileExistsBehavior": true
     }
   ],
   "inputPrompt": "single-line",
@@ -37,7 +37,7 @@
   "announceUpdates": true,
   "version": "2.1.0",
   "disableOnlineFeatures": true,
-  "enableRibbonIcon": false,
+  "enableRibbonIcon": true,
   "showCaptureNotification": true,
   "ai": {
     "defaultModel": "Ask me",
