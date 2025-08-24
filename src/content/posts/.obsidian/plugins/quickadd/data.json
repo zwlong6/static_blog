@@ -5,7 +5,7 @@
       "name": "article_templete",
       "type": "Template",
       "command": false,
-      "templatePath": "templete/article_templete.md",
+      "templatePath": "/Users/zwl/Desktop/git_project/dev/static_blog/src/content/templete/article_templete.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
