@@ -14,7 +14,7 @@ pinned: true
 author: zwl
 licenseName: CC BY 4.0
 sourceLink: https://zzzero.site
-image: http://www.98qy.com/sjbz/api.php?r={{DATE:MMDDHHmmss}}
+image: http://www.98qy.com/sjbz/api.php?r={{DATE:YYMMDDHHmmss}}
 ---
 # Templete
 

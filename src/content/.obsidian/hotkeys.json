@@ -1,4 +1,12 @@
 {
+  "terminal:close-terminal": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Q"
+    }
+  ],
   "quickadd:runQuickAdd": [
     {
       "modifiers": [
@@ -7,20 +15,12 @@
       "key": "W"
     }
   ],
-  "terminal:open-terminal.integrated.current": [
+  "terminal:open-terminal.integrated.root": [
     {
       "modifiers": [
         "Ctrl"
       ],
       "key": "E"
-    }
-  ],
-  "terminal:close-terminal": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "Q"
     }
   ]
 }
