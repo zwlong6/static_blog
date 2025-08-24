@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1b74e0464745472a",
+        "id": "a35d8070aab1b911",
         "type": "split",
         "children": [
           {
@@ -15,20 +15,53 @@
                 "id": "c14b865ef40428b4",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "posts/2025-08-24/文档模版1.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "新标签页"
+                  "title": "文档模版1"
+                }
+              },
+              {
+                "id": "fd3f8e72b2308d13",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "posts/2025-08-24/文档模版2.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "文档模版2"
+                }
+              },
+              {
+                "id": "692855e3d0f653f8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "posts/2025-08-24/文档模版3.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "文档模版3"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
-            "id": "7a562506367c4f8d",
+            "id": "25d901715680a6b9",
             "type": "tabs",
             "children": [
               {
-                "id": "4e13d3ca294100f0",
+                "id": "8b481b225c4b48f2",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -236,12 +269,16 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4e13d3ca294100f0",
+  "active": "8b481b225c4b48f2",
   "lastOpenFiles": [
+    "posts/2025-08-24/文档模版3.md",
+    "posts/2025-08-24/文档模版2.md",
+    "posts/2025-08-24/文档模版1.md",
+    "文档模版1.md",
+    "posts/2025-08-24",
     "spec/about.md",
     "spec/friends.md",
     "posts/文档模版22.md",
-    "posts/2025-08-24/文档模版1.md",
     "posts/2025-08-24/test1.md",
     "templete/blog_templete.md",
     "posts/2025-08-24/1.md",
@@ -252,7 +289,6 @@
     "templete/<% tp.file.creation_date(\"yyyy-MM-DD\") %>.md",
     "templete/test1.md",
     "posts/2025-08-24/Pasted image 20250824220147.png",
-    "posts/2025-08-24",
     "posts/test.md",
     "templete/blog_templete1.md",
     "posts/test8.md",
@@ -263,9 +299,6 @@
     "posts/test03.md",
     "未命名.md",
     "posts/test3.md",
-    "posts/test2.md",
-    "posts/测试文档7.md",
-    "posts/测试文档4.md",
     "templete/update-timestamp-user-script.js",
     "templete/update-timestamp.js"
   ]
