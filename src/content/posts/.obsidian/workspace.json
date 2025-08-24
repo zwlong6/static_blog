@@ -4,46 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4c23f44d09409d68",
+        "id": "c713c792dd4ef984",
         "type": "tabs",
         "children": [
           {
-            "id": "4a605738a47f66d7",
+            "id": "6c4229825747a026",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "terminal:terminal",
+              "type": "markdown",
               "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/zwl/Desktop/git_project/dev/static_blog/src/content/posts",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "/bin/zsh",
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
+                "file": "test1.md",
+                "mode": "source",
+                "source": false
               },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "终端：zwl@Mmmmmac:~/Desktop/git_project/dev/static_blog/src/content/posts"
+              "icon": "lucide-file",
+              "title": "test1"
             }
           }
         ]
@@ -119,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欢迎.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "欢迎 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -175,13 +149,52 @@
               "icon": "lucide-list",
               "title": "欢迎 的大纲"
             }
+          },
+          {
+            "id": "792689d3c2915128",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/zwl/Desktop/git_project/dev/static_blog/src/content/posts",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "/bin/zsh",
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：zwl@Mmmmmac:~/Desktop/git_project/dev/static_blog/src/content/posts"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 682.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +209,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4a605738a47f66d7",
+  "active": "792689d3c2915128",
   "lastOpenFiles": [
+    "test1.md",
     "video_bak.md",
     "video.md",
-    "test1.md",
     "test.md",
     "未命名.md",
     "1.md",
