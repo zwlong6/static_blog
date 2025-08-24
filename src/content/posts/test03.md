@@ -5,7 +5,7 @@ published: 2025-08-24 20:28:04
 pubDate: 2025-08-24 20:28:04
 date: 2025-08-24 20:28:04
 updated: 2025-08-24 20:28:04
-draft: true
+draft: false
 series: markdown
 tags:
   - Markdown
