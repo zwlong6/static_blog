@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b0666b65aa8f6a1",
+        "id": "d90927110832ec75",
         "type": "tabs",
         "children": [
           {
-            "id": "8613968482d1e9f5",
+            "id": "266dd72c30415b8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "blog_templete_templater"
             }
+          },
+          {
+            "id": "654fcf05e3a77279",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templete/blog_templete_templater.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "blog_templete_templater"
+            }
+          },
+          {
+            "id": "21793a78987c8fb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templete/blog_templete.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "blog_templete"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -172,11 +201,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "8613968482d1e9f5",
+  "active": "21793a78987c8fb0",
   "lastOpenFiles": [
+    "posts/test3.md",
     "templete/blog_templete.md",
     "templete/blog_templete_templater.md",
     "templete/blog_templete1.md",
+    "posts/test2.md",
     "posts/test1.md",
     "posts/测试文档7.md",
     "posts/测试文档4.md",
