@@ -10,6 +10,7 @@
           {
             "id": "879fa1b5f22066ec",
             "type": "tabs",
+            "dimension": 68.91428571428571,
             "children": [
               {
                 "id": "c14b865ef40428b4",
@@ -59,6 +60,7 @@
           {
             "id": "25d901715680a6b9",
             "type": "tabs",
+            "dimension": 31.085714285714282,
             "children": [
               {
                 "id": "8b481b225c4b48f2",
@@ -269,7 +271,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "8b481b225c4b48f2",
+  "active": "43a1252af57cfbd1",
   "lastOpenFiles": [
     "posts/2025-08-24/文档模版3.md",
     "posts/2025-08-24/文档模版2.md",
