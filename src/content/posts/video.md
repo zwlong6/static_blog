@@ -8,7 +8,6 @@ draft: false
 image:
   url: 'https://example.com/vue3-cover.jpg'
   alt: 'Vue.js 3 组合式API指南封面'
-pubDate: 2025-01-20
 ---
 
 Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.
