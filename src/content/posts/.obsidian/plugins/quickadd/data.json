@@ -5,15 +5,15 @@
       "name": "article_templete",
       "type": "Template",
       "command": false,
-      "templatePath": "/Users/zwl/Desktop/git_project/dev/static_blog/src/content/templete/article_templete.md",
+      "templatePath": "templete/article_templete.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "index"
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "{{NAME}}/"
+          "{{NAME}}"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
