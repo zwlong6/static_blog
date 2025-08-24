@@ -12,7 +12,7 @@ category: Examples
 pinned: true
 author: zwl
 licenseName: CC BY 4.0
-sourceLink: https://zzzero.site
+sourceLink: https://blog.zzzero.site/posts/<% tp.file.title %>/
 image: http://www.98qy.com/sjbz/api.php?r={{DATE:DDHHmmss}}
 ---
 
