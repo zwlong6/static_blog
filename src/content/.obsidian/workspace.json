@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "69d40319a242534c",
+        "id": "b00f07dd6ac7e64a",
         "type": "split",
         "children": [
           {
@@ -28,11 +28,11 @@
             ]
           },
           {
-            "id": "13e3ffcb73d5668b",
+            "id": "bef5f0ca682a76a8",
             "type": "tabs",
             "children": [
               {
-                "id": "e1012e018ff81096",
+                "id": "22c52f88703325bd",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -240,7 +240,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "e1012e018ff81096",
+  "active": "22c52f88703325bd",
   "lastOpenFiles": [
     "posts/2025-08-24/文档模版1.md",
     "posts/2025-08-24/Pasted image 20250824220147.png",
