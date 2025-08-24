@@ -1,24 +1,15 @@
-// 智能更新脚本：只更新updated字段
-// 确保不会影响published、pubDate、date字段
-
-async function smartUpdateTimestamp() {
+module.exports = async function(tp) {
     // 获取当前活动文件
     const activeFile = app.workspace.getActiveFile();
     if (!activeFile) {
         new Notice("没有活动文件");
-        return;
+        return "错误：没有活动文件";
     }
     
-    // 检查是否为Markdown文件
-    if (activeFile.extension !== 'md') {
-        new Notice("仅支持Markdown文件");
-        return;
-    }
-    
-    // 读取文件 content
+    // 读取文件内容
     const content = await app.vault.read(activeFile);
     
-    // 获取当前时间（UTC+8时区
+    // 获取当前时间（UTC+8时区）
     const now = new Date().toLocaleString('zh-CN', {
         timeZone: 'Asia/Shanghai',
         year: 'numeric',
@@ -30,18 +21,15 @@ async function smartUpdateTimestamp() {
         hour12: false
     }).replace(/\//g, '-');
     
-    // 使用更精确的正则表达式，只匹配Frontmatter中的updated字段
-    // 确保不会匹配文档正文中的内容
+    // 使用更精确的正则表达式，只匹配updated字段
     const updatedContent = content.replace(
-        /(^---\n[\s\S]*?)(updated:\s*).*?(\n[\s\S]*?^---)/m,
-        `$1$2${now}$3`
+        /^updated:\s*.*$/m,  // 只匹配行首的updated字段
+        `updated: ${now}`
     );
     
     // 写回文件
     await app.vault.modify(activeFile, updatedContent);
     
     new Notice(`已更新updated字段为: ${now}`);
-}
-
-// 执行脚本
-smartUpdateTimestamp();
+    return `已更新updated字段为: ${now}`;
+};

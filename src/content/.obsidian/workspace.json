@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a884e2b94328041b",
+        "id": "2b0666b65aa8f6a1",
         "type": "tabs",
         "children": [
           {
-            "id": "2f1c47070838f4c4",
+            "id": "8613968482d1e9f5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "templete/blog_templete_templater.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "blog_templete_templater"
             }
           }
         ]
@@ -157,6 +161,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -167,17 +172,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "43a1252af57cfbd1",
+  "active": "8613968482d1e9f5",
   "lastOpenFiles": [
+    "templete/blog_templete.md",
+    "templete/blog_templete_templater.md",
+    "templete/blog_templete1.md",
+    "posts/test1.md",
+    "posts/测试文档7.md",
+    "posts/测试文档4.md",
+    "posts/测试文档1.md",
+    "posts/测试文档6.md",
+    "posts/测试文档5.md",
+    "posts/测试文档3.md",
     "posts/测试文档2.md",
     "templete/update-timestamp-user-script.js",
     "templete/update-timestamp.js",
-    "templete/blog_templete_templater.md",
-    "posts/测试文档1.md",
-    "templete/blog_templete.md",
-    "posts/测试文档4.md",
-    "templete/blog_templete1.md",
-    "posts/测试文档3.md",
     "posts/test01.md",
     "posts/测试文档.md",
     "templete/blog_templete_副本.md",
