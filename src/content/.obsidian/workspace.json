@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "879fa1b5f22066ec",
+        "id": "fa05b0343e17433c",
         "type": "tabs",
         "children": [
           {
-            "id": "c14b865ef40428b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/2025-08-24/文档模版1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "文档模版1"
-            }
-          },
-          {
-            "id": "fd3f8e72b2308d13",
+            "id": "8e514016c7ea0598",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +21,7 @@
               "title": "文档模版1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,22 +188,23 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "fd3f8e72b2308d13",
+  "active": "8e514016c7ea0598",
   "lastOpenFiles": [
-    "posts/2025-08-24/文档模版2.md",
-    "posts/2025-08-24/文档模版3.md",
-    "posts/2025-08-24/assets/Pasted image 20250824231602.png",
+    "posts/2025-08-24/assets/Pasted image 20250824232011.png",
+    "posts/2025-08-24/assets",
     "posts/2025-08-24/文档模版1.md",
+    "posts/2025-08-24",
+    "posts/2025-08-24/文档模版3.md",
+    "posts/2025-08-24/文档模版2.md",
+    "posts/2025-08-24/assets/Pasted image 20250824231602.png",
     "posts/2025-08-24/assets/Pasted image 20250824225640.png",
     "posts/2025-08-24/assets/Pasted image 20250824225629.png",
     "posts/2025-08-24/assets/Pasted image 20250824225554.png",
     "posts/2025-08-24/assets/Pasted image 20250824225242.png",
     "posts/2025-08-24/assets/Pasted image 20250824224347.png",
     "posts/2025-08-24/assets/Pasted image 20250824224313.png",
-    "posts/2025-08-24/assets",
     "Pasted image 20250824224057.png",
     "文档模版1.md",
-    "posts/2025-08-24",
     "spec/about.md",
     "spec/friends.md",
     "posts/文档模版22.md",
