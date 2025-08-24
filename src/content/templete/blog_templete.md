@@ -1,9 +1,9 @@
 ---
-title: "{{NAME}}"
+title: {{NAME}}
 description: 文章描述（必需）
-published: "{{DATE:YYYY-MM-DD}}"
-pubDate: "{{DATE:YYYY-MM-DD}}"
-date: "{{DATE:YYYY-MM-DD}}"
+published: {{DATE:YYYY-MM-DD}}
+pubDate: {{DATE:YYYY-MM-DD}}
+date: {{DATE:YYYY-MM-DD}}
 draft: true
 series: markdown
 tags:

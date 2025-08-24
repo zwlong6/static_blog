@@ -1,9 +1,9 @@
 ---
-title: "{{NAME}}"
+title: {{NAME}}
 description: 文章描述（必需）
-published: "{{DATE:YYYY-MM-DD}}"
-pubDate: "{{DATE:YYYY-MM-DD}}"
-date: "{{DATE:YYYY-MM-DD}}"
+published: {{DATE:YYYY-MM-DD}}
+pubDate: {{DATE:YYYY-MM-DD}}
+date: {{DATE:YYYY-MM-DD}}
 draft: true
 series: markdown
 tags:
@@ -14,7 +14,7 @@ pinned: true
 author: zwl
 licenseName: CC BY 4.0
 sourceLink: https://zzzero.site
-image: http://www.98qy.com/sjbz/api.php
+image: http://www.98qy.com/sjbz/api.php?r={{RANDOM:1-9999}}
 ---
 # Templete
 
