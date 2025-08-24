@@ -100,8 +100,8 @@ const jsonLd = {
             {entry.data.image &&
                 <ImageWrapper 
                     id="post-cover" 
-                    src={typeof entry.data.image === 'string' ? entry.data.image : entry.data.image.url} 
-                    alt={typeof entry.data.image === 'string' ? '' : entry.data.image.alt || ''} 
+                    src={entry.data.image} 
+                    alt="Cover Image of the Post"
                     basePath={path.join("content/posts/", getDir(entry.id))} 
                     class="mb-8 rounded-xl banner-container onload-animation"
                 />
