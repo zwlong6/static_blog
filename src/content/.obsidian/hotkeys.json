@@ -22,5 +22,13 @@
       ],
       "key": "E"
     }
+  ],
+  "note-locker:toggle-note-lock": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "R"
+    }
   ]
 }
